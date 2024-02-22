@@ -30,7 +30,7 @@ This engine also has to be made in order to create a specific game, in our case 
 
 ## Clone ##
 ``` bash
-git clone git@gitlabstudents.isartintra.com:projets/2022_projet_moteur_gp_2026_projet_moteur-potatos_engine.git
+git clone git@github.com:Vincent-Devine/PotatOS.git
 ```
 <br>
 
