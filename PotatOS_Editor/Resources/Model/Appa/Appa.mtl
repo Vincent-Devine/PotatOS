@@ -1,0 +1,24 @@
+newmtl Appa:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd RV9E78_12a3ce40_14.png
+map_Ka RV9E78_12a3ce40_14.png
+Ni 1.00
+newmtl Appa:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd RV9E78_09fa89a7_14.png
+map_Ka RV9E78_09fa89a7_14.png
+Ni 1.00
+newmtl Appa:lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd RV9E78_2365e708_14.png
+map_Ka RV9E78_2365e708_14.png
+Ni 1.00

@@ -1,0 +1,49 @@
+# Blender MTL File: 'None'
+# Material Count: 4
+
+newmtl MI_Char_MoxxiCloth
+Ns 676.880198
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd T_Moxxi_LowerBody_D.png
+map_Ke T_Moxxi_LowerBody_E.png
+map_Ns T_Moxxi_LowerBody_Skin.png
+
+newmtl MI_NPC_Char_MoxxiEyes
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd T_Human_Mouth_01_D.png
+
+newmtl MI_NPC_Char_MoxxiMouth
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd T_Human_Mouth_01_D.png
+
+newmtl MI_NPC_Char_MoxxiUpperBody
+Ns 699.504144
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd T_Moxxi_UpperBody_D.png
+map_Ns T_Moxxi_UpperBody_Skin.png

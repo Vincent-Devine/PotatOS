@@ -1,0 +1,102 @@
+[CodeGenManagerSettings]
+# List of supported extensions
+supportedFileExtensions = [".h", ".hpp"]
+
+# Files contained in the directories of this list will be parsed
+toProcessDirectories = [
+	'''./PotatOS_Engine/Headers/MonoBehavior''',
+	'''./PotatOS_Engine/Headers/MonoBehavior/Renderer''',
+	'''./PotatOS_Engine/Headers/MonoBehavior/Scripts''',
+	'''./PotatOS_Engine/Headers/MonoBehavior/Physics''',
+	'''./PotatOS_Engine/Headers/Math''',
+	'''./PotatOS_Engine/Headers/Resource''',
+	'''./PotatOS_Engine/Headers/DataStructure/Animation''',
+]
+
+# Files to parse which are not included in any directory of toParseDirectories
+toProcessFiles = [
+]
+
+# Files contained in the directories of this list will be ignored
+ignoredDirectories = [
+]
+
+# Files not to parse which are not included in any directory of ignoredDirectories
+ignoredFiles = [
+#	'''./PotatOS_Engine/Libs/rfk/Include/Refureku/Generated/EntityMacros.h''',
+	# '''./PotatOS_Engine/Libs/rfk/Include/Refureku/Generated/Instantiator.rfkh.h''',
+	# '''./PotatOS_Engine/Libs/rfk/Include/Refureku/Generated/ParseAllNested.rfkh.h''',
+	# '''./PotatOS_Engine/Libs/rfk/Include/Refureku/Generated/PropertySettings.rfkh.h''',
+	# '''./PotatOS_Engine/Libs/rfk/Include/Refureku/Generated/Property.rfkh.h''',
+]
+
+
+[CodeGenUnitSettings]
+# Generated files will be located here
+outputDirectory = '''./PotatOS_Engine/Libs/rfk/Include/Refureku/Generated'''
+
+generatedHeaderFileNamePattern = "##FILENAME##.rfkh.h"
+generatedSourceFileNamePattern = "##FILENAME##.rfks.h"
+classFooterMacroPattern = "##CLASSFULLNAME##_GENERATED"
+headerFileFooterMacroPattern = "File_##FILENAME##_GENERATED"
+
+# Uncomment if you use Refureku on a dynamic library (.dll/.so/.dylib)
+# Define the export macro so that Refureku can export relevant generated code
+# exportSymbolMacroName = "EXAMPLE_IMPORT_EXPORT_MACRO"
+
+
+[ParsingSettings]
+# Used c++ version (supported values are: 17, 20)
+cppVersion = 17
+
+# Include directories of the project
+projectIncludeDirectories = [
+	'''./PotatOS_Engine/Libs/rfk/Include''',
+	'''./PotatOS_Engine/Libs/glad''',
+	'''./PotatOS_Engine/Libs/glfw/include''',
+	'''./PotatOS_Editor/third_party/ImGUI/include''',
+	'''./PotatOS_Engine/Libs/KHR''',
+	'''./PotatOS_Engine/Libs/physx/include''',
+	'''./PotatOS_Engine/Libs/stb''',
+	'''./PotatOS_Engine/Libs/assimp''',
+	'''./PotatOS_Engine/Libs/dll''',
+	'''./PotatOS_Engine/Libs/nlohmann''',
+	'''./PotatOS_Engine/Libs/glfw/include/GLFW''',
+	'''./PotatOS_Engine/Libs/FMOD Studio API Windows/api/fsbank/inc''',
+	'''./PotatOS_Engine/Headers''',
+	'''./PotatOS_Engine'''
+]
+
+# Must be one of "msvc", "clang++", "g++"
+compilerExeName = "msvc"
+
+# Abort parsing on first encountered error
+shouldAbortParsingOnFirstError = true
+
+# Should all entities be parsed whether they are annotated or not
+shouldParseAllNamespaces = true
+shouldParseAllClasses = false
+shouldParseAllStructs = false
+shouldParseAllVariables = false
+shouldParseAllFields = false
+shouldParseAllFunctions = false
+shouldParseAllMethods = false
+shouldParseAllEnums = false
+shouldParseAllEnumValues = true
+
+shouldLogDiagnostic = false
+
+propertySeparator = ","
+subPropertySeparator = ","
+subPropertyStartEncloser = "("
+subPropertyEndEncloser = ")"
+
+namespaceMacroName = "RFKNamespace"
+classMacroName = "RFKClass"
+structMacroName = "RFKStruct"
+variableMacroName = "RFKVariable"
+fieldMacroName = "RFKField"
+functionMacroName = "RFKFunction"
+methodMacroName = "RFKMethod"
+enumMacroName = "RFKEnum"
+enumValueMacroName = "RFKEnumVal"

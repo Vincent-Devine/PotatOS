@@ -1,0 +1,987 @@
+{
+    "GameObject": [
+        null,
+        {
+            "AudioSource": {
+                "Channel": 0,
+                "MaxRange": 100.5,
+                "MinRange": 0.5,
+                "PlayOnLoop": false,
+                "Sound": "Resources/Sounds/wave.mp3"
+            },
+            "Model": {
+                "Mesh": "Resources/Mesh/pistol.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/pistol.png"
+            },
+            "Name": "Pistol",
+            "Parent": "Root",
+            "PlaySoundScript": {
+                "IsPresent": true
+            },
+            "RandomRotation": {
+                "IsPresent": true
+            },
+            "Transform": {
+                "Position": {
+                    "x": -6.062507629394531,
+                    "y": 6.1238603591918945,
+                    "z": 8.724449157714844
+                },
+                "Rotation": {
+                    "w": -0.07095874845981598,
+                    "x": 0.9158587455749512,
+                    "y": -0.3552754819393158,
+                    "z": -0.1730518639087677
+                },
+                "Scale": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/frying_pan.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/frying_pan.png"
+            },
+            "Name": "Frying Pan",
+            "Parent": "Pistol",
+            "PointLight": {
+                "Ambient": {
+                    "w": 1.0,
+                    "x": 0.10000000149011612,
+                    "y": 0.10000000149011612,
+                    "z": 0.10000000149011612
+                },
+                "Constant": 1.0,
+                "Diffuse": {
+                    "w": 1.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 50.0
+                },
+                "Linear": 0.699999988079071,
+                "Quadratic": 1.7999999523162842,
+                "Specular": {
+                    "w": 1.0,
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "RandomRotation": {
+                "IsPresent": true
+            },
+            "Transform": {
+                "Position": {
+                    "x": -3.7699999809265137,
+                    "y": 10.0,
+                    "z": 0.800000011920929
+                },
+                "Rotation": {
+                    "w": 0.6395550966262817,
+                    "x": -0.370777428150177,
+                    "y": 0.5407710671424866,
+                    "z": -0.4013228416442871
+                },
+                "Scale": {
+                    "x": 0.49999988079071045,
+                    "y": 0.495800644159317,
+                    "z": 0.5
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Model/Appa/Appa.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": null
+            },
+            "Name": "Appa",
+            "Parent": "Frying Pan",
+            "Transform": {
+                "Position": {
+                    "x": 5.0,
+                    "y": -1.0,
+                    "z": -10.0
+                },
+                "Rotation": {
+                    "w": 0.9195204377174377,
+                    "x": -0.22965888679027557,
+                    "y": -0.26629239320755005,
+                    "z": -0.17557716369628906
+                },
+                "Scale": {
+                    "x": 0.10000000149011612,
+                    "y": 0.10000000149011612,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Model/Rabbid/Rabbid.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": null
+            },
+            "Name": "Rabbid",
+            "Parent": "Appa",
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 15.0,
+                    "z": 4.0
+                },
+                "Rotation": {
+                    "w": 1.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 20.0,
+                    "y": 20.0,
+                    "z": 20.0
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Model/Champ/dqx_champ.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": null
+            },
+            "Name": "Champ",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 0.8968706727027893,
+                    "y": -8.702399253845215,
+                    "z": -5.953785419464111
+                },
+                "Rotation": {
+                    "w": 0.9943307638168335,
+                    "x": 0.01390167698264122,
+                    "y": -0.10541288554668427,
+                    "z": -0.0011227211216464639
+                },
+                "Scale": {
+                    "x": 4.090000152587891,
+                    "y": 4.090000152587891,
+                    "z": 4.170000076293945
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": false,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.4000000059604645,
+                    "y": 1.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 4.059999942779541,
+                    "y": 1.8930000066757202,
+                    "z": 0.7509999871253967
+                }
+            },
+            "Model": {
+                "Mesh": "Resources/Model/Pingu/Pingu.fbx",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": null
+            },
+            "Name": "Pingu",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 89.645751953125,
+                    "y": -8.997892379760742,
+                    "z": -11.419937133789063
+                },
+                "Rotation": {
+                    "w": -0.6987355351448059,
+                    "x": 0.6982783079147339,
+                    "y": 0.1098041981458664,
+                    "z": 0.11008711904287338
+                },
+                "Scale": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            }
+        },
+        {
+            "Animator": {
+                "Animation": true
+            },
+            "BobScript": {
+                "IsPresent": true
+            },
+            "CapsuleCollider": {
+                "Alignment": 1,
+                "HalfHeight": 1.0,
+                "IsStatic": false,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 2.5,
+                    "z": 0.0
+                },
+                "Queryable": true,
+                "Radius": 0.5
+            },
+            "LifeScript": {
+                "IsPresent": true
+            },
+            "Model": {
+                "Mesh": "Resources/Model/Zombie/Walking.dae",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/Animation.vert",
+                "Texture": null
+            },
+            "Name": "Zombie",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": -21.847925186157227,
+                    "y": -10.747661590576172,
+                    "z": 40.92805099487305
+                },
+                "Rotation": {
+                    "w": 0.9206464290618896,
+                    "x": -0.0005286484956741333,
+                    "y": -0.39039725065231323,
+                    "z": 3.4302473068237305e-05
+                },
+                "Scale": {
+                    "x": 0.02500000037252903,
+                    "y": 0.02500000037252903,
+                    "z": 0.02500000037252903
+                }
+            }
+        },
+        {
+            "Animator": {
+                "Animation": true
+            },
+            "CapsuleCollider": {
+                "Alignment": 1,
+                "HalfHeight": 1.0,
+                "IsStatic": false,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 1.5,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Radius": 0.5
+            },
+            "LifeScript": {
+                "IsPresent": true
+            },
+            "Model": {
+                "Mesh": "Resources/Model/Michelle/Walking.dae",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/Animation.vert",
+                "Texture": null
+            },
+            "Name": "Player",
+            "Parent": "Root",
+            "PlayerAttack": {
+                "IsPresent": true
+            },
+            "Transform": {
+                "Position": {
+                    "x": -16.8415470123291,
+                    "y": -9.74766731262207,
+                    "z": 54.762245178222656
+                },
+                "Rotation": {
+                    "w": 0.19796276092529297,
+                    "x": 1.4841556549072266e-05,
+                    "y": 0.9802095890045166,
+                    "z": -0.0002382323145866394
+                },
+                "Scale": {
+                    "x": 0.02500000037252903,
+                    "y": 0.02500000037252903,
+                    "z": 0.02500000037252903
+                }
+            },
+            "TransitionScript": {
+                "IsPresent": true
+            }
+        },
+        {
+            "Camera": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Speed": 1.5707963705062866
+            },
+            "MoveCamera": {
+                "IsPresent": true
+            },
+            "Name": "Camera",
+            "Parent": "Player",
+            "Transform": {
+                "Position": {
+                    "x": -21.8415470123291,
+                    "y": -1.7476615905761719,
+                    "z": 63.762245178222656
+                },
+                "Rotation": {
+                    "w": 0.08715592324733734,
+                    "x": 0.0,
+                    "y": 0.9961947798728943,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "Name": "Floor",
+            "Parent": "Root",
+            "PlaneCollider": {
+                "Queryable": false
+            },
+            "Transform": {
+                "Position": {
+                    "x": 3.880000114440918,
+                    "y": -9.747664451599121,
+                    "z": 0.4000000059604645
+                },
+                "Rotation": {
+                    "w": 1.0,
+                    "x": 0.0,
+                    "y": -7.610015578071348e-16,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 10.0,
+                    "y": 10.0,
+                    "z": 10.0
+                }
+            }
+        },
+        {
+            "Name": "Sphere",
+            "Parent": "Root",
+            "SphereCollider": {
+                "IsStatic": false,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": -0.023000000044703484,
+                    "y": 0.023000000044703484,
+                    "z": 0.02199999988079071
+                },
+                "Queryable": false,
+                "Radius": 2.0
+            },
+            "Transform": {
+                "Position": {
+                    "x": 16.91145896911621,
+                    "y": -7.752008438110352,
+                    "z": -11.021134376525879
+                },
+                "Rotation": {
+                    "w": -0.2547740042209625,
+                    "x": -0.01348874345421791,
+                    "y": 0.25436487793922424,
+                    "z": 0.9328487515449524
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/wood.jpg"
+            },
+            "Name": "WoodPlank",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 19.507802963256836,
+                    "y": -4.722641944885254,
+                    "z": 5.221339702606201
+                },
+                "Rotation": {
+                    "w": 0.7071068286895752,
+                    "x": 8.414091778801238e-17,
+                    "y": -8.414087808334298e-17,
+                    "z": 0.7071068286895752
+                },
+                "Scale": {
+                    "x": 10.0,
+                    "y": 1.0,
+                    "z": 50.0
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/wood.jpg"
+            },
+            "Name": "WoodWall1",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": -22.646255493164063,
+                    "y": -4.8311662673950195,
+                    "z": 5.861791610717773
+                },
+                "Rotation": {
+                    "w": 0.7071068286895752,
+                    "x": 8.414091778801238e-17,
+                    "y": -8.414087808334298e-17,
+                    "z": 0.7071068286895752
+                },
+                "Scale": {
+                    "x": 10.0,
+                    "y": 1.0,
+                    "z": 50.0
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/wood.jpg"
+            },
+            "Name": "WoodWall2",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": -0.5820114612579346,
+                    "y": 2.8177034854888916,
+                    "z": -19.382278442382813
+                },
+                "Rotation": {
+                    "w": 0.5074483752250671,
+                    "x": -0.492439329624176,
+                    "y": -0.49243906140327454,
+                    "z": 0.507448136806488
+                },
+                "Scale": {
+                    "x": 27.421751022338867,
+                    "y": 1.0000001192092896,
+                    "z": 50.0000114440918
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/wood.jpg"
+            },
+            "Name": "WoodWall3",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 2.194009304046631,
+                    "y": -4.831169128417969,
+                    "z": 30.462810516357422
+                },
+                "Rotation": {
+                    "w": 0.4999845623970032,
+                    "x": 0.500015914440155,
+                    "y": 0.5000154376029968,
+                    "z": 0.49998408555984497
+                },
+                "Scale": {
+                    "x": 10.0,
+                    "y": 1.0,
+                    "z": 50.0
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/stone.jpg"
+            },
+            "Name": "StoneBlock",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 3.059999942779541,
+                    "y": -10.0,
+                    "z": 6.0
+                },
+                "Rotation": {
+                    "w": 1.0,
+                    "x": 6.672520770689601e-22,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 50.88968276977539,
+                    "y": 0.5,
+                    "z": 98.35086059570313
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/stone.jpg"
+            },
+            "Name": "StoneCeilling",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": -1.0799131393432617,
+                    "y": -24.991085052490234,
+                    "z": 241.99453735351563
+                },
+                "Rotation": {
+                    "w": 1.0,
+                    "x": 6.672520770689601e-22,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 50.88968276977539,
+                    "y": 0.5,
+                    "z": 50.32802200317383
+                }
+            }
+        },
+        {
+            "Name": "SpotLight",
+            "Parent": "Root",
+            "SpotLight": {
+                "Ambient": {
+                    "w": 1.0,
+                    "x": 9.999999747378752e-05,
+                    "y": 9.998999303206801e-05,
+                    "z": 9.998999303206801e-05
+                },
+                "Constant": 3.5850000381469727,
+                "CutOff": 42.891998291015625,
+                "Diffuse": {
+                    "w": 1.0,
+                    "x": 1.0,
+                    "y": 0.9999803900718689,
+                    "z": 0.9998999834060669
+                },
+                "Direction": {
+                    "x": 0.07000000029802322,
+                    "y": -1.0,
+                    "z": -1.0
+                },
+                "Linear": 0.009999999776482582,
+                "OuterCutOff": 59.07500076293945,
+                "Quadratic": 0.0010000000474974513,
+                "Specular": {
+                    "w": 1.0,
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 0.9998999834060669
+                }
+            },
+            "Transform": {
+                "Position": {
+                    "x": -0.2884254455566406,
+                    "y": 0.9937295913696289,
+                    "z": -1.9224286079406738
+                },
+                "Rotation": {
+                    "w": 1.0,
+                    "x": -1.8244339798911824e-06,
+                    "y": 1.0370705844049693e-19,
+                    "z": -5.6843415472676226e-14
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.4668961763381958,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "Name": "PointLight",
+            "Parent": "Root",
+            "PointLight": {
+                "Ambient": {
+                    "w": 1.0,
+                    "x": 9.999999747378752e-05,
+                    "y": 9.998999303206801e-05,
+                    "z": 9.998999303206801e-05
+                },
+                "Constant": 0.20000000298023224,
+                "Diffuse": {
+                    "w": 1.0,
+                    "x": 0.22017765045166016,
+                    "y": 0.07303546369075775,
+                    "z": 0.07976289093494415
+                },
+                "Linear": 0.019999999552965164,
+                "Quadratic": 0.009999999776482582,
+                "Specular": {
+                    "w": 1.0,
+                    "x": 9.999999747378752e-05,
+                    "y": 9.998999303206801e-05,
+                    "z": 9.998999303206801e-05
+                }
+            },
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 20.0,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "w": 0.6953259706497192,
+                    "x": -0.12206347286701202,
+                    "y": 0.6975729465484619,
+                    "z": 0.12253250926733017
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 0.5,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "DirectionalLight": {
+                "Ambient": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Diffuse": {
+                    "w": 0.0,
+                    "x": 1.0,
+                    "y": 0.9998999834060669,
+                    "z": 0.9998999834060669
+                },
+                "Direction": {
+                    "x": 0.6919999718666077,
+                    "y": -1.0,
+                    "z": -0.36399999260902405
+                },
+                "Specular": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            "Name": "DirLight",
+            "Parent": "Player",
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "w": 1.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "Name": "Test Asset",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": -25.060226440429688,
+                    "y": -9.88222599029541,
+                    "z": 43.82037353515625
+                },
+                "Rotation": {
+                    "w": 0.5956985354423523,
+                    "x": 0.38098418712615967,
+                    "y": 0.3820759356021881,
+                    "z": 0.5949894785881042
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/RetroUrbanKit/roadDirt_side.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": null
+            },
+            "Name": "Road Dirt Side",
+            "Parent": "Test Asset",
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "w": 0.5,
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": -0.5
+                },
+                "Scale": {
+                    "x": 10.0,
+                    "y": 10.0,
+                    "z": 10.0
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/RetroUrbanKit/roadDirt_side.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": null
+            },
+            "Name": "Road Dirt Side 2",
+            "Parent": "Test Asset",
+            "Transform": {
+                "Position": {
+                    "x": -1.2170462468930054e-06,
+                    "y": 0.0,
+                    "z": -9.981498718261719
+                },
+                "Rotation": {
+                    "w": 0.5,
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": -0.5
+                },
+                "Scale": {
+                    "x": 10.0,
+                    "y": 10.0,
+                    "z": 10.0
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/RetroUrbanKit/wallA_garage.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": null
+            },
+            "Name": "Garage",
+            "Parent": "Test Asset",
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": -8.502487182617188,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "w": 0.5,
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": -0.5
+                },
+                "Scale": {
+                    "x": 10.0,
+                    "y": 10.0,
+                    "z": 10.0
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/RetroUrbanKit/wallA_roof.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": null
+            },
+            "Name": "Garage roof",
+            "Parent": "Test Asset",
+            "Transform": {
+                "Position": {
+                    "x": 9.990265846252441,
+                    "y": -8.488239288330078,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "w": 0.7071068286895752,
+                    "x": 0.0,
+                    "y": -0.0,
+                    "z": -0.7071067094802856
+                },
+                "Scale": {
+                    "x": 10.0,
+                    "y": 10.0,
+                    "z": 10.0
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/RetroUrbanKit/truck_green.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": null
+            },
+            "Name": "Green Truck",
+            "Parent": "Test Asset",
+            "Transform": {
+                "Position": {
+                    "x": -5.3599551392835565e-06,
+                    "y": -5.614524841308594,
+                    "z": -10.211633682250977
+                },
+                "Rotation": {
+                    "w": 0.10073284059762955,
+                    "x": -0.6998932361602783,
+                    "y": -0.6998934745788574,
+                    "z": -0.10075488686561584
+                },
+                "Scale": {
+                    "x": 5.0,
+                    "y": 5.0,
+                    "z": 5.0
+                }
+            }
+        },
+        {
+            "Name": "POuet",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "w": 1.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": true,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "ColliderPlayerAttack": {
+                "IsPresent": true
+            },
+            "Name": "Collider Player",
+            "Parent": "Player",
+            "Transform": {
+                "Position": {
+                    "x": 0.061216503381729126,
+                    "y": 3.0420427322387695,
+                    "z": 2.2443132400512695
+                },
+                "Rotation": {
+                    "w": 1.0,
+                    "x": 3.1316523675397886e-29,
+                    "y": -7.221099412868526e-11,
+                    "z": 4.3368084314480763e-19
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        }
+    ]
+}

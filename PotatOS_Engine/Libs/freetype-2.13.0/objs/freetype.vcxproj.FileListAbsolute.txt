@@ -1,0 +1,1 @@
+C:\Users\o.lise\Documents\PotatOS\PotatOS_Engine\Libs\freetype-2.13.0\objs\x64\Debug\freetype.dll

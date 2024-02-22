@@ -1,0 +1,20 @@
+{
+    "Input": {
+        "backward": 37,
+        "down": 112,
+        "forward": 41,
+        "gameAttack": 122,
+        "gameBackward": 37,
+        "gameForward": 41,
+        "gameJump": 1,
+        "gameLeft": 19,
+        "gameMenu": 31,
+        "gameQuit": 51,
+        "gameRight": 22,
+        "left": 19,
+        "quit": 256,
+        "right": 22,
+        "sensitivity": 0.20000000298023224,
+        "up": 1
+    }
+}

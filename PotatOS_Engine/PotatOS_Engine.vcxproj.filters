@@ -1,0 +1,1125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Application.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Resource\IResource.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\ResourceManager.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DebugSystem\Log.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DebugSystem\Assertion.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Resource\Mesh.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Resource\Shader.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Resource\Texture.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Wrapper\LoaderImage.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Math\Quaternion.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Math\Utils.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Math\Vector2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Math\Vector3.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Math\Vector4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Wrapper\Window.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Wrapper\RHI.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Engine.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Common.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Wrapper\Loader3D.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Renderer\Model.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DataStructure\Transform.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DataStructure\GameObject.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Input\InputManager.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Renderer\Light.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Renderer\PointLight.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Renderer\DirectionalLight.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Renderer\SpotLight.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DataStructure\LightManager.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Math\Mat4.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DataStructure\GraphScene.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\ThreadPool.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\IComponent.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\RandomRotation.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Wrapper\Physic.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Physics\Collider.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Physics\BoxCollider.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Physics\SphereCollider.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Physics\CapsuleCollider.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Physics\PlaneCollider.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Config.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\NativeProperties.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Object.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Refureku.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\Template\ClassTemplate.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\Template\ClassTemplateInstantiation.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\Template\ClassTemplateInstantiationRegisterer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\Template\ETemplateParameterKind.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\Template\NonTypeTemplateArgument.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\Template\NonTypeTemplateParameter.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\Template\TemplateArgument.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\Template\TemplateParameter.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\Template\TemplateTemplateArgument.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\Template\TemplateTemplateParameter.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\Template\TypeTemplateArgument.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\Template\TypeTemplateParameter.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\Archetype.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\ArchetypeRegisterer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\EClassKind.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\Enum.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\EnumValue.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\FundamentalArchetype.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\GetArchetype.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\ParentStruct.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\Struct.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Entity\DefaultEntityRegisterer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Entity\EEntityKind.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Entity\Entity.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Entity\EntityCast.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\EFunctionFlags.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\EMethodFlags.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\Function.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\FunctionBase.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\FunctionHelper.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\FunctionParameter.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\ICallable.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\MemberFunction.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\Method.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\MethodBase.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\MethodHelper.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\NonMemberFunction.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\StaticMethod.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Namespace\Namespace.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Namespace\NamespaceFragment.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Namespace\NamespaceFragmentRegisterer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Variables\EFieldFlags.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Variables\EVarFlags.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Variables\Field.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Variables\FieldBase.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Variables\StaticField.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Variables\Variable.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Variables\VariableBase.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Cast.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Database.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\EAccessSpecifier.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\ETypePartDescriptor.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\MethodFieldHelpers.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Type.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\TypeInfo\TypePart.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Properties\Instantiator.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Properties\ParseAllNested.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Properties\Property.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Properties\PropertySettings.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Generated\EntityMacros.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Generated\Instantiator.rfkh.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Generated\Property.rfkh.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Generated\PropertySettings.rfkh.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Generated\ReflectionTest.rfkh.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Generated\ReflectionTest.rfks.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Containers\Allocator.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Containers\Vector.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Exceptions\ArgCountMismatch.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Exceptions\ArgTypeMismatch.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Exceptions\BadNamespaceFormat.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Exceptions\ConstViolation.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Exceptions\InvalidArchetype.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Exceptions\ReturnTypeMismatch.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Exceptions\TypeMismatch.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Misc\CodeGenerationHelpers.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Misc\CopyConstness.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Misc\DisableWarningMacros.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Misc\EnumMacros.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Misc\FundamentalTypes.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Misc\GetPimplMacro.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Misc\Pimpl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Misc\Predicate.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Misc\SharedPtr.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Misc\TypeTraits.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Misc\TypeTraitsMacros.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Misc\UniquePtr.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Misc\Visitor.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Refureku-master\Include\Refureku\Generated\ParseAllNested.rfkh.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Wrapper\Reflection.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DLLInclude.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DataStructure\Animation\Bone.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DataStructure\Animation\Animation.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Animator.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DataStructure\Animation\AnimData.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DataStructure\Animation\Rig.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Wrapper\JsonLayer.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Wrapper\SoundLayer.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Resource\Sound.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\AudioSource.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\AnimationManager.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Resource\PrimitiveMesh.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\MoveCameraEditor.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\MoveCamera.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Wrapper\FontRenderer.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Renderer\Camera.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Canva.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\ft2build.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\dlg\dlg.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\dlg\output.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\config\ftconfig.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\config\ftheader.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\config\ftmodule.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\config\ftoption.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\config\ftstdlib.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\config\integer-types.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\config\mac-support.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\config\public-macros.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svbdf.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svcfftl.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svcid.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svfntfmt.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svgldict.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svgxval.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svkern.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svmetric.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svmm.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svotval.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svpfr.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svpostnm.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svprop.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svpscmap.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svpsinfo.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svsfnt.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svttcmap.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svtteng.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svttglyf.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\services\svwinfnt.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\autohint.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\cffotypes.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\cfftypes.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\compiler-macros.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\ftcalc.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\ftdebug.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\ftdrv.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\ftgloadr.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\fthash.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\ftmemory.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\ftmmtypes.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\ftobjs.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\ftpsprop.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\ftrfork.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\ftserv.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\ftstream.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\fttrace.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\ftvalid.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\psaux.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\pshints.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\sfnt.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\svginterface.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\t1types.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\tttypes.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\internal\wofftypes.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\freetype.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftadvanc.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftbbox.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftbdf.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftbitmap.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftbzip2.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftcache.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftchapters.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftcid.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftcolor.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftdriver.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\fterrdef.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\fterrors.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftfntfmt.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftgasp.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftglyph.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftgxval.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftgzip.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftimage.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftincrem.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftlcdfil.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftlist.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftlogging.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftlzw.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftmac.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftmm.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftmodapi.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftmoderr.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftotval.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftoutln.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftparams.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftpfr.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftrender.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftsizes.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftsnames.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftstroke.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftsynth.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftsystem.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\fttrigon.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\fttypes.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ftwinfnt.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\otsvg.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\t1tables.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\ttnameid.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\tttables.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\freetype-2.13.0\include\freetype\tttags.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\BobScript.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\TransitionScript.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ColorBlind.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\PlayerAttack.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Scripts\PlaySoundScript.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Scripts\BaseScript.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\ColliderPlayerAttack.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\LifeScript.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Scripts\MenuScript.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Scripts\Jump.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Scripts\PlayThemeScript.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\SoundAsset.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Scripts\ZombieFollowAttack.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Scripts\LifeDisplay.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MonoBehavior\Scripts\PlaySoundEnemyScript.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Application.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DebugSystem\Log.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\ResourceManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resource\Texture.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resource\Shader.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resource\Mesh.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Wrapper\LoaderImage.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Wrapper\Window.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Wrapper\RHI.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Engine.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Wrapper\Loader3D.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Renderer\Model.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DataStructure\Transform.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DataStructure\GameObject.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\glad.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Input\InputManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Renderer\Camera.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Renderer\DirectionalLight.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Renderer\Light.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Renderer\PointLight.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Renderer\SpotLight.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DataStructure\LightManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Scene.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DataStructure\GraphScene.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\ThreadPool.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\RandomRotation.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Wrapper\Physic.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resource\IResource.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DataStructure\Animation\Bone.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DataStructure\Animation\Animation.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\AnimationManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Animator.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Wrapper\JsonLayer.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Wrapper\SoundLayer.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resource\Sound.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\AudioSource.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Physics\Collider.cpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Physics\BoxCollider.cpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Physics\CapsuleCollider.cpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Physics\PlaneCollider.cpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Physics\SphereCollider.cpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resource\PrimitiveMesh.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\MoveCameraEditor.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\MoveCamera.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Wrapper\FontRenderer.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Canva.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\BobScript.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\TransitionScript.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ColorBlind.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\PlayerAttack.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Script\BaseScript.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Script\PlaySoundScript.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\ColliderPlayerAttack.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\LifeScript.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Script\MenuScript.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Script\Jump.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Script\PlayThemeScript.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\SoudAsset.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Script\ZombieFollowAttack.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Script\LifeDisplay.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MonoBehavior\Script\PlaySoundEnemyScript.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Headers\Math\Quaternion.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Headers\Math\Utils.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Headers\Math\Vector2.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Headers\Math\Vector3.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Headers\Math\Vector4.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Headers\Math\Mat4.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\Template\ClassTemplate.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\Template\NonTypeTemplateArgument.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\Enum.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\EnumValue.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\GetArchetype.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Archetypes\Struct.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Entity\Entity.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\Function.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\FunctionBase.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\FunctionHelper.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\MemberFunction.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\Method.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\MethodHelper.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\NonMemberFunction.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Functions\StaticMethod.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Namespace\Namespace.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Variables\Field.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Variables\StaticField.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Variables\Variable.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Variables\VariableBase.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Cast.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Database.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\TypeInfo\Type.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\Containers\Allocator.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\Containers\Vector.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\Misc\CodeGenerationHelpers.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\Misc\Pimpl.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\Misc\SharedPtr.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="Libs\Refureku-master\Include\Refureku\Misc\UniquePtr.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

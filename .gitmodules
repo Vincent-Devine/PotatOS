@@ -1,0 +1,3 @@
+[submodule "PotatOS_Engine/Libs/stb"]
+	path = PotatOS_Engine/Libs/stb
+	url = https://github.com/nothings/stb.git

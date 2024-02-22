@@ -1,0 +1,41 @@
+# Blender MTL File: 'pingu.blend'
+# Material Count: 3
+
+newmtl body1
+Ns 96.078431
+Ka 0.386928 0.386928 0.386928
+Kd 0.972549 0.972549 0.972549
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd body1.png
+map_Ka body1.png
+map_d body1.png
+
+newmtl face
+Ns 96.078431
+Ka 0.397386 0.397386 0.397386
+Kd 0.972549 0.972549 0.972549
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd face.png
+map_Ka face.png
+map_d face.png
+
+newmtl kutibasi2
+Ns 96.078431
+Ka 0.167320 0.167320 0.167320
+Kd 0.972549 0.972549 0.972549
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd kutibasi2.png
+map_Ka kutibasi2.png
+map_d kutibasi2.png

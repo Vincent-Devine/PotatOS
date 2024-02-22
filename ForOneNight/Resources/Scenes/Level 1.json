@@ -1,0 +1,3974 @@
+{
+    "GameObject": [
+        null,
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/loading_screen.png"
+            },
+            "Name": "Loading Screen",
+            "Parent": "Root",
+            "SpotLight": {
+                "Ambient": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Constant": 0.164000004529953,
+                "CutOff": -1.0,
+                "Diffuse": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Direction": {
+                    "x": -1.0,
+                    "y": -1.0,
+                    "z": 1.0
+                },
+                "Linear": 0.009999999776482582,
+                "OuterCutOff": 47.7859992980957,
+                "Quadratic": 0.0010000000474974513,
+                "Specular": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            "Transform": {
+                "Position": {
+                    "x": 505.0,
+                    "y": 500.0,
+                    "z": 500.0
+                },
+                "Rotation": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 100.0,
+                    "y": 100.0,
+                    "z": 100.0
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/background_color.PNG"
+            },
+            "Name": "Loading Screen 1",
+            "Parent": "Loading Screen",
+            "Transform": {
+                "Position": {
+                    "x": 2.25982666015625,
+                    "y": -1.016082763671875,
+                    "z": -97.346435546875
+                },
+                "Rotation": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/background_color.PNG"
+            },
+            "Name": "Loading Screen 2",
+            "Parent": "Loading Screen",
+            "Transform": {
+                "Position": {
+                    "x": 0.60784912109375,
+                    "y": -94.9783935546875,
+                    "z": 0.565338134765625
+                },
+                "Rotation": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/background_color.PNG"
+            },
+            "Name": "Loading Screen 3",
+            "Parent": "Loading Screen",
+            "Transform": {
+                "Position": {
+                    "x": 2.25982666015625,
+                    "y": 0.82464599609375,
+                    "z": 97.346435546875
+                },
+                "Rotation": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/background_color.PNG"
+            },
+            "Name": "Loading Screen 4",
+            "Parent": "Loading Screen",
+            "Transform": {
+                "Position": {
+                    "x": 4.5716552734375,
+                    "y": 95.8597412109375,
+                    "z": -1.5806884765625
+                },
+                "Rotation": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "MenuScript": {
+                "IsPresent": true
+            },
+            "Name": "Canva",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 8.04021167755127,
+                    "y": -0.9300050735473633,
+                    "z": 10.093756675720215
+                },
+                "Rotation": {
+                    "w": 1.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "Animator": {
+                "Animation": true
+            },
+            "AudioSource": {
+                "Channel": 1,
+                "MaxRange": 100.5,
+                "MinRange": 0.5,
+                "PlayOnLoop": false,
+                "Sound": "Resources/Sounds/zombieGrowl.mp3"
+            },
+            "BobScript": {
+                "IsPresent": true
+            },
+            "Canva": {
+                "color": {
+                    "w": 0.0,
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "height": 100.0,
+                "posSet": {
+                    "x": 200.0,
+                    "y": -350.0
+                },
+                "scale": 1.0,
+                "timer": 2.6050000190734863,
+                "width": 100.0
+            },
+            "CapsuleCollider": {
+                "Alignment": 1,
+                "HalfHeight": 1.2630000114440918,
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 2.299999952316284,
+                    "z": 0.0
+                },
+                "Queryable": true,
+                "Radius": 0.8349999785423279
+            },
+            "LifeScript": {
+                "IsPresent": true
+            },
+            "Model": {
+                "Mesh": "Resources/Model/Zombie/Walking.dae",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/Animation.vert",
+                "Texture": null
+            },
+            "Name": "Zombie",
+            "Parent": "Root",
+            "PlaySoundEnemy": {
+                "IsPresent": true
+            },
+            "Transform": {
+                "Position": {
+                    "x": 11.6279296875,
+                    "y": -10.317488670349121,
+                    "z": -10.637382507324219
+                },
+                "Rotation": {
+                    "w": 0.9420680999755859,
+                    "x": -0.03415431082248688,
+                    "y": -0.3335062265396118,
+                    "z": -0.010713995434343815
+                },
+                "Scale": {
+                    "x": 0.02500000037252903,
+                    "y": 0.02500000037252903,
+                    "z": 0.02500000037252903
+                }
+            },
+            "ZombieFollowAttack": {
+                "IsPresent": true
+            }
+        },
+        {
+            "Animator": {
+                "Animation": true
+            },
+            "AudioSource": {
+                "Channel": 1,
+                "MaxRange": 100.5,
+                "MinRange": 0.5,
+                "PlayOnLoop": false,
+                "Sound": "Resources/Sounds/zombieGrowl.mp3"
+            },
+            "BobScript": {
+                "IsPresent": true
+            },
+            "Canva": {
+                "color": {
+                    "w": 0.0,
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "height": 100.0,
+                "posSet": {
+                    "x": 200.0,
+                    "y": -350.0
+                },
+                "scale": 1.0,
+                "timer": 2.6050000190734863,
+                "width": 100.0
+            },
+            "CapsuleCollider": {
+                "Alignment": 1,
+                "HalfHeight": 1.2630000114440918,
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 2.299999952316284,
+                    "z": 0.0
+                },
+                "Queryable": true,
+                "Radius": 0.8349999785423279
+            },
+            "LifeScript": {
+                "IsPresent": true
+            },
+            "Model": {
+                "Mesh": "Resources/Model/Zombie/Walking.dae",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/Animation.vert",
+                "Texture": null
+            },
+            "Name": "Zombie 2",
+            "Parent": "Root",
+            "PlaySoundEnemy": {
+                "IsPresent": true
+            },
+            "Transform": {
+                "Position": {
+                    "x": 29.645668029785156,
+                    "y": -10.595824241638184,
+                    "z": 26.688947677612305
+                },
+                "Rotation": {
+                    "w": 0.9420680999755859,
+                    "x": -0.03415431082248688,
+                    "y": -0.3335062265396118,
+                    "z": -0.010713995434343815
+                },
+                "Scale": {
+                    "x": 0.02500000037252903,
+                    "y": 0.02500000037252903,
+                    "z": 0.02500000037252903
+                }
+            },
+            "ZombieFollowAttack": {
+                "IsPresent": true
+            }
+        },
+        {
+            "Animator": {
+                "Animation": true
+            },
+            "AudioSource": {
+                "Channel": 1,
+                "MaxRange": 100.5,
+                "MinRange": 0.5,
+                "PlayOnLoop": false,
+                "Sound": "Resources/Sounds/zombieGrowl.mp3"
+            },
+            "BobScript": {
+                "IsPresent": true
+            },
+            "Canva": {
+                "color": {
+                    "w": 0.0,
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "height": 100.0,
+                "posSet": {
+                    "x": 200.0,
+                    "y": -350.0
+                },
+                "scale": 1.0,
+                "timer": 2.6050000190734863,
+                "width": 100.0
+            },
+            "CapsuleCollider": {
+                "Alignment": 1,
+                "HalfHeight": 1.2630000114440918,
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 2.299999952316284,
+                    "z": 0.0
+                },
+                "Queryable": true,
+                "Radius": 0.8349999785423279
+            },
+            "LifeScript": {
+                "IsPresent": true
+            },
+            "Model": {
+                "Mesh": "Resources/Model/Zombie/Walking.dae",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/Animation.vert",
+                "Texture": null
+            },
+            "Name": "Zombie 3",
+            "Parent": "Root",
+            "PlaySoundEnemy": {
+                "IsPresent": true
+            },
+            "Transform": {
+                "Position": {
+                    "x": 49.37750244140625,
+                    "y": -10.536635398864746,
+                    "z": 25.457538604736328
+                },
+                "Rotation": {
+                    "w": 0.9420680999755859,
+                    "x": -0.03415431082248688,
+                    "y": -0.3335062265396118,
+                    "z": -0.010713995434343815
+                },
+                "Scale": {
+                    "x": 0.02500000037252903,
+                    "y": 0.02500000037252903,
+                    "z": 0.02500000037252903
+                }
+            },
+            "ZombieFollowAttack": {
+                "IsPresent": true
+            }
+        },
+        {
+            "Animator": {
+                "Animation": true
+            },
+            "AudioSource": {
+                "Channel": 1,
+                "MaxRange": 100.5,
+                "MinRange": 0.5,
+                "PlayOnLoop": false,
+                "Sound": "Resources/Sounds/zombieGrowl.mp3"
+            },
+            "BobScript": {
+                "IsPresent": true
+            },
+            "Canva": {
+                "color": {
+                    "w": 0.0,
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "height": 100.0,
+                "posSet": {
+                    "x": 200.0,
+                    "y": -350.0
+                },
+                "scale": 1.0,
+                "timer": 2.6050000190734863,
+                "width": 100.0
+            },
+            "CapsuleCollider": {
+                "Alignment": 1,
+                "HalfHeight": 1.2630000114440918,
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 2.299999952316284,
+                    "z": 0.0
+                },
+                "Queryable": true,
+                "Radius": 0.8349999785423279
+            },
+            "LifeScript": {
+                "IsPresent": true
+            },
+            "Model": {
+                "Mesh": "Resources/Model/Zombie/Walking.dae",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/Animation.vert",
+                "Texture": null
+            },
+            "Name": "Zombie 4",
+            "Parent": "Root",
+            "PlaySoundEnemy": {
+                "IsPresent": true
+            },
+            "Transform": {
+                "Position": {
+                    "x": 55.19646453857422,
+                    "y": -10.45070743560791,
+                    "z": 71.83618927001953
+                },
+                "Rotation": {
+                    "w": 0.9420680999755859,
+                    "x": -0.03415431082248688,
+                    "y": -0.3335062265396118,
+                    "z": -0.010713995434343815
+                },
+                "Scale": {
+                    "x": 0.02500000037252903,
+                    "y": 0.02500000037252903,
+                    "z": 0.02500000037252903
+                }
+            },
+            "ZombieFollowAttack": {
+                "IsPresent": true
+            }
+        },
+        {
+            "Animator": {
+                "Animation": true
+            },
+            "BobScript": {
+                "IsPresent": true
+            },
+            "Canva": {
+                "color": {
+                    "w": 0.0,
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "height": 100.0,
+                "posSet": {
+                    "x": 200.0,
+                    "y": -350.0
+                },
+                "scale": 1.0,
+                "timer": 2.6050000190734863,
+                "width": 100.0
+            },
+            "CapsuleCollider": {
+                "Alignment": 1,
+                "HalfHeight": 1.2630000114440918,
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 2.299999952316284,
+                    "z": 0.0
+                },
+                "Queryable": true,
+                "Radius": 0.8349999785423279
+            },
+            "LifeScript": {
+                "IsPresent": true
+            },
+            "Model": {
+                "Mesh": "Resources/Model/Zombie/Walking.dae",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/Animation.vert",
+                "Texture": null
+            },
+            "Name": "Zombie 5",
+            "Parent": "Root",
+            "PlaySoundEnemy": {
+                "IsPresent": true
+            },
+            "Transform": {
+                "Position": {
+                    "x": 36.99480438232422,
+                    "y": -11.007608413696289,
+                    "z": 94.67965698242188
+                },
+                "Rotation": {
+                    "w": 0.9420680999755859,
+                    "x": -0.03415431082248688,
+                    "y": -0.3335062265396118,
+                    "z": -0.010713995434343815
+                },
+                "Scale": {
+                    "x": 0.02500000037252903,
+                    "y": 0.02500000037252903,
+                    "z": 0.02500000037252903
+                }
+            },
+            "ZombieFollowAttack": {
+                "IsPresent": true
+            }
+        },
+        {
+            "Animator": {
+                "Animation": true
+            },
+            "AudioSource": {
+                "Channel": 1,
+                "MaxRange": 100.5,
+                "MinRange": 0.5,
+                "PlayOnLoop": false,
+                "Sound": "Resources/Sounds/Attack.wav"
+            },
+            "Canva": {
+                "color": {
+                    "w": 0.0,
+                    "x": 0.16109466552734375,
+                    "y": 0.4586104154586792,
+                    "z": 2.7335310903708887e-08
+                },
+                "height": 100.0,
+                "posSet": {
+                    "x": 200.0,
+                    "y": -450.0
+                },
+                "scale": 1.0,
+                "timer": 2.6050000190734863,
+                "width": 100.0
+            },
+            "CapsuleCollider": {
+                "Alignment": 1,
+                "HalfHeight": 1.0,
+                "IsStatic": false,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 2.0329999923706055,
+                    "z": 0.0
+                },
+                "Queryable": true,
+                "Radius": 0.5
+            },
+            "JumpScript": {
+                "IsPresent": true
+            },
+            "LifeDisplay": {
+                "IsPresent": true
+            },
+            "LifeScript": {
+                "IsPresent": true
+            },
+            "Model": {
+                "Mesh": "Resources/Model/Michelle/Walking.dae",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/Animation.vert",
+                "Texture": null
+            },
+            "Name": "Player",
+            "Parent": "Root",
+            "PlaySoundScript": {
+                "IsPresent": true
+            },
+            "PlayerAttack": {
+                "IsPresent": true
+            },
+            "Transform": {
+                "Position": {
+                    "x": -16.309057235717773,
+                    "y": -10.124917984008789,
+                    "z": 4.280219078063965
+                },
+                "Rotation": {
+                    "w": 0.22412875294685364,
+                    "x": 0.0001601576805114746,
+                    "y": 0.9745596051216125,
+                    "z": -2.520531415939331e-05
+                },
+                "Scale": {
+                    "x": 0.02500000037252903,
+                    "y": 0.02500000037252903,
+                    "z": 0.02500000037252903
+                }
+            },
+            "TransitionScript": {
+                "IsPresent": true
+            }
+        },
+        {
+            "Canva": {
+                "color": {
+                    "w": 1.0,
+                    "x": 0.9683087468147278,
+                    "y": 0.7483407855033875,
+                    "z": 0.00781747605651617
+                },
+                "height": 100.0,
+                "posSet": {
+                    "x": -800.0,
+                    "y": 350.0
+                },
+                "scale": 1.0,
+                "timer": 2.0,
+                "width": 100.0
+            },
+            "Name": "CanvaPlayer",
+            "Parent": "Player",
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "w": 0.7071068286895752,
+                    "x": 0.0,
+                    "y": 0.7071068286895752,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "Camera": {
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Speed": 1.5707963705062866
+            },
+            "MoveCamera": {
+                "IsPresent": true
+            },
+            "Name": "Camera",
+            "Parent": "Player",
+            "Transform": {
+                "Position": {
+                    "x": -23.181190490722656,
+                    "y": -2.433582305908203,
+                    "z": 12.024984359741211
+                },
+                "Rotation": {
+                    "w": 0.08715591579675674,
+                    "x": 0.0,
+                    "y": 0.9961946606636047,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "AudioSource": {
+                "Channel": 1,
+                "MaxRange": 1000.0,
+                "MinRange": 0.5,
+                "PlayOnLoop": true,
+                "Sound": "Resources/Sounds/theme.wav"
+            },
+            "Canva": {
+                "color": {
+                    "w": 1.0,
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "height": 100.0,
+                "posSet": {
+                    "x": -800.0,
+                    "y": -450.0
+                },
+                "scale": 1.0,
+                "timer": 5.0,
+                "width": 100.0
+            },
+            "Name": "Theme",
+            "Parent": "Camera",
+            "PlayThemeScript": {
+                "IsPresent": true
+            },
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "w": 1.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Name": "Camera",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 8.04021167755127,
+                    "y": -0.9300050735473633,
+                    "z": 10.093756675720215
+                },
+                "Rotation": {
+                    "w": 0.08715592324733734,
+                    "x": 0.0,
+                    "y": 0.9961947798728943,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "Name": "Floor",
+            "Parent": "Root",
+            "PlaneCollider": {
+                "Queryable": false
+            },
+            "Transform": {
+                "Position": {
+                    "x": 69.29010009765625,
+                    "y": -9.995060920715332,
+                    "z": 90.20875549316406
+                },
+                "Rotation": {
+                    "w": 1.0,
+                    "x": 1.6836767144923215e-06,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 4.379151344299316,
+                    "y": 10.0,
+                    "z": 0.00429146783426404
+                }
+            }
+        },
+        {
+            "DirectionalLight": {
+                "Ambient": {
+                    "w": 0.0,
+                    "x": 1.0,
+                    "y": 0.9998999834060669,
+                    "z": 0.9999061822891235
+                },
+                "Diffuse": {
+                    "w": 0.0,
+                    "x": 1.0,
+                    "y": 0.9999091625213623,
+                    "z": 0.9998999834060669
+                },
+                "Direction": {
+                    "x": 0.22699999809265137,
+                    "y": -1.0,
+                    "z": 0.4740000069141388
+                },
+                "Specular": {
+                    "w": 0.0,
+                    "x": 1.0,
+                    "y": 0.9998999834060669,
+                    "z": 0.9998999834060669
+                }
+            },
+            "Name": "DirLight",
+            "Parent": "Player",
+            "Transform": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "w": 1.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "Name": "SpotLight",
+            "Parent": "Root",
+            "SpotLight": {
+                "Ambient": {
+                    "w": 1.0,
+                    "x": 1.0,
+                    "y": 0.69964200258255,
+                    "z": 0.0
+                },
+                "Constant": 0.164000004529953,
+                "CutOff": -1.0,
+                "Diffuse": {
+                    "w": 1.0,
+                    "x": 1.0,
+                    "y": 0.8039329648017883,
+                    "z": 0.0
+                },
+                "Direction": {
+                    "x": 1.0,
+                    "y": -1.0,
+                    "z": 2.0
+                },
+                "Linear": 0.009999999776482582,
+                "OuterCutOff": 47.7859992980957,
+                "Quadratic": 0.0010000000474974513,
+                "Specular": {
+                    "w": 1.0,
+                    "x": 1.0,
+                    "y": 0.9999999403953552,
+                    "z": 0.0
+                }
+            },
+            "Transform": {
+                "Position": {
+                    "x": 37.88579177856445,
+                    "y": -7.438875198364258,
+                    "z": 38.53324890136719
+                },
+                "Rotation": {
+                    "w": 0.807532548904419,
+                    "x": -1.1668438446577056e-06,
+                    "y": 0.5898231863975525,
+                    "z": -1.2279075463084155e-06
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.4668961763381958,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "Name": "SpotLight 2",
+            "Parent": "Root",
+            "SpotLight": {
+                "Ambient": {
+                    "w": 1.0,
+                    "x": 1.0,
+                    "y": 0.9998999834060669,
+                    "z": 0.9998999834060669
+                },
+                "Constant": 1.190000057220459,
+                "CutOff": 42.891998291015625,
+                "Diffuse": {
+                    "w": 1.0,
+                    "x": 1.0,
+                    "y": 0.9999803900718689,
+                    "z": 0.9998999834060669
+                },
+                "Direction": {
+                    "x": -0.36000001430511475,
+                    "y": -1.0,
+                    "z": -1.0
+                },
+                "Linear": 0.009999999776482582,
+                "OuterCutOff": 59.07500076293945,
+                "Quadratic": 0.0010000000474974513,
+                "Specular": {
+                    "w": 1.0,
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 0.9998999834060669
+                }
+            },
+            "Transform": {
+                "Position": {
+                    "x": 19.332408905029297,
+                    "y": -3.091736078262329,
+                    "z": 0.07867316156625748
+                },
+                "Rotation": {
+                    "w": 1.0,
+                    "x": -1.8244339798911824e-06,
+                    "y": 1.0370705844049693e-19,
+                    "z": -5.6843415472676226e-14
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.4668961763381958,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 15.0,
+                    "y": 4.71999979019165,
+                    "z": 20.0
+                }
+            },
+            "Name": "Collider Box",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": -8.967700004577637,
+                    "y": -5.385009765625,
+                    "z": -25.665250778198242
+                },
+                "Rotation": {
+                    "w": 0.9781515598297119,
+                    "x": 9.015743934126913e-20,
+                    "y": -0.20789296925067902,
+                    "z": 4.241973466688579e-19
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 45.0,
+                    "y": 8.020000457763672,
+                    "z": 50.0
+                }
+            },
+            "Name": "Collider Box 2",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 73.81299591064453,
+                    "y": -5.385009765625,
+                    "z": -23.647029876708984
+                },
+                "Rotation": {
+                    "w": 0.9781515598297119,
+                    "x": 9.01568512675524e-20,
+                    "y": -0.20789296925067902,
+                    "z": 4.241939345488311e-19
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 50.0,
+                    "y": 4.8520002365112305,
+                    "z": 40.0
+                }
+            },
+            "Name": "Collider Box 3",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": -4.85708475112915,
+                    "y": -5.385009765625,
+                    "z": 60.71928405761719
+                },
+                "Rotation": {
+                    "w": 0.9809939861297607,
+                    "x": 8.41489738550944e-20,
+                    "y": -0.19403822720050812,
+                    "z": 4.2542958728762047e-19
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 10.0,
+                    "y": 3.2679998874664307,
+                    "z": 10.0
+                }
+            },
+            "Name": "Collider Box 4",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": -34.06898498535156,
+                    "y": -5.385009765625,
+                    "z": -5.475221157073975
+                },
+                "Rotation": {
+                    "w": 0.9783186316490173,
+                    "x": 8.981476038547343e-20,
+                    "y": -0.20710545778274536,
+                    "z": 4.242646067924161e-19
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.1299623250961304
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 10.0,
+                    "y": 4.323999881744385,
+                    "z": 4.26800012588501
+                }
+            },
+            "Name": "Collider Box 5",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 17.502758026123047,
+                    "y": -5.385009765625,
+                    "z": -26.754636764526367
+                },
+                "Rotation": {
+                    "w": 0.9761431813240051,
+                    "x": 9.416171082671324e-20,
+                    "y": -0.21712781488895416,
+                    "z": 4.2332327525533075e-19
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 15.0,
+                    "y": 6.435999870300293,
+                    "z": 16.0
+                }
+            },
+            "Name": "Collider Box 6",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 74.75695037841797,
+                    "y": -5.385009765625,
+                    "z": 98.79658508300781
+                },
+                "Rotation": {
+                    "w": 0.9809939861297607,
+                    "x": 8.41489738550944e-20,
+                    "y": -0.19403822720050812,
+                    "z": 4.2542958728762047e-19
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 7.492000102996826,
+                    "y": 4.455999851226807,
+                    "z": 2.7049999237060547
+                }
+            },
+            "Name": "Collider Box 7",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 54.703346252441406,
+                    "y": -6.409108638763428,
+                    "z": 94.4297103881836
+                },
+                "Rotation": {
+                    "w": 0.9406706094741821,
+                    "x": -1.4715319500059032e-19,
+                    "y": 0.339321106672287,
+                    "z": 4.0793877568700427e-19
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 0.8673632144927979,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 3.135999917984009,
+                    "y": 2.2119998931884766,
+                    "z": 4.007999897003174
+                }
+            },
+            "Name": "Collider Box 8",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 43.73353958129883,
+                    "y": -8.513431549072266,
+                    "z": 97.47561645507813
+                },
+                "Rotation": {
+                    "w": 0.9921765327453613,
+                    "x": 5.4140699769828926e-20,
+                    "y": -0.12484292685985565,
+                    "z": 4.3027738266506406e-19
+                },
+                "Scale": {
+                    "x": 0.9799999594688416,
+                    "y": 0.9939432144165039,
+                    "z": 0.9799999594688416
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 10.0,
+                    "y": 20.0,
+                    "z": 20.0
+                }
+            },
+            "Name": "Collider Box 9",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 116.3753662109375,
+                    "y": -8.513431549072266,
+                    "z": 77.9541015625
+                },
+                "Rotation": {
+                    "w": 0.9773313403129578,
+                    "x": 9.181498004185469e-20,
+                    "y": -0.21171537041664124,
+                    "z": 4.238407025778768e-19
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 35.0,
+                    "y": 10.0,
+                    "z": 10.0
+                }
+            },
+            "Name": "Collider Box 10",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 57.986507415771484,
+                    "y": -2.744745969772339,
+                    "z": 121.59495544433594
+                },
+                "Rotation": {
+                    "w": 0.9781515598297119,
+                    "x": 9.015743934126913e-20,
+                    "y": -0.20789296925067902,
+                    "z": 4.241973466688579e-19
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 10.0,
+                    "y": 8.944000244140625,
+                    "z": 25.0
+                }
+            },
+            "Name": "Collider Box 11",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 88.77411651611328,
+                    "y": 1.4637832641601563,
+                    "z": 113.89031982421875
+                },
+                "Rotation": {
+                    "w": 0.9781515598297119,
+                    "x": 9.015743934126913e-20,
+                    "y": -0.20789296925067902,
+                    "z": 4.241973466688579e-19
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 25.0,
+                    "y": 7.888000011444092,
+                    "z": 15.0
+                }
+            },
+            "Name": "Collider Box 12",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 92.21105194091797,
+                    "y": -7.746025085449219,
+                    "z": 71.15377044677734
+                },
+                "Rotation": {
+                    "w": 0.9781515598297119,
+                    "x": 9.015743934126913e-20,
+                    "y": -0.20789296925067902,
+                    "z": 4.241973466688579e-19
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 10.0,
+                    "y": 6.303999900817871,
+                    "z": 3.747999906539917
+                }
+            },
+            "Name": "Collider Box 13",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 91.73529052734375,
+                    "y": -5.072463035583496,
+                    "z": 47.11046600341797
+                },
+                "Rotation": {
+                    "w": 0.9977297782897949,
+                    "x": -2.920511402221916e-20,
+                    "y": 0.06734471768140793,
+                    "z": 4.326807559348369e-19
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 10.0,
+                    "y": 10.0,
+                    "z": 15.0
+                }
+            },
+            "Name": "Collider Box 14",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 115.04224395751953,
+                    "y": 1.640397548675537,
+                    "z": 31.26031494140625
+                },
+                "Rotation": {
+                    "w": 0.9781516194343567,
+                    "x": 9.01574522659662e-20,
+                    "y": -0.2078932374715805,
+                    "z": 4.2419659703642775e-19
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 10.0,
+                    "y": 7.888000011444092,
+                    "z": 15.0
+                }
+            },
+            "Name": "Collider Box 15",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 98.70677185058594,
+                    "y": -7.746025085449219,
+                    "z": 74.0455322265625
+                },
+                "Rotation": {
+                    "w": 0.9781515598297119,
+                    "x": 9.015743934126913e-20,
+                    "y": -0.20789296925067902,
+                    "z": 4.241973466688579e-19
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 12.0,
+                    "y": 4.455999851226807,
+                    "z": 4.658999919891357
+                }
+            },
+            "Name": "Collider Box 16",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 71.85662841796875,
+                    "y": -5.549197673797607,
+                    "z": 38.174598693847656
+                },
+                "Rotation": {
+                    "w": 0.9123193025588989,
+                    "x": 1.7757866861378942e-19,
+                    "y": -0.4094794988632202,
+                    "z": 3.9564482968232904e-19
+                },
+                "Scale": {
+                    "x": 1.9517195224761963,
+                    "y": 1.2000000476837158,
+                    "z": 1.1999999284744263
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": false,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 4.455999851226807,
+                    "y": 4.191999912261963,
+                    "z": 3.3559999465942383
+                }
+            },
+            "Name": "Collider Box 17",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": 37.231544494628906,
+                    "y": -5.549197673797607,
+                    "z": 34.501712799072266
+                },
+                "Rotation": {
+                    "w": 0.807441771030426,
+                    "x": 2.558406303610866e-19,
+                    "y": -0.5899472832679749,
+                    "z": 3.5016067518926985e-19
+                },
+                "Scale": {
+                    "x": 1.9517195224761963,
+                    "y": 1.2000000476837158,
+                    "z": 1.1999999284744263
+                }
+            }
+        },
+        {
+            "Name": "Level",
+            "Parent": "Root",
+            "Transform": {
+                "Position": {
+                    "x": -12.419319152832031,
+                    "y": -10.45308780670166,
+                    "z": -15.061259269714355
+                },
+                "Rotation": {
+                    "w": 0.5877225995063782,
+                    "x": 0.3932863473892212,
+                    "y": 0.4128836691379547,
+                    "z": 0.5739643573760986
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/RetroUrbanKit/truck_green.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": null
+            },
+            "Name": "Green Truck",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -0.006481915712356567,
+                    "y": 4.4828290939331055,
+                    "z": 1.6957783699035645
+                },
+                "Rotation": {
+                    "w": 0.06151639670133591,
+                    "x": -0.7044612765312195,
+                    "y": -0.7043877840042114,
+                    "z": -0.061546631157398224
+                },
+                "Scale": {
+                    "x": 5.0,
+                    "y": 7.297527313232422,
+                    "z": 9.436519622802734
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/RetroUrbanKit/truck_grey.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": null
+            },
+            "Name": "Grey Truck",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -1.9404343366622925,
+                    "y": 19.858074188232422,
+                    "z": 97.65196990966797
+                },
+                "Rotation": {
+                    "w": 0.7037609815597534,
+                    "x": -0.1412312537431717,
+                    "y": -0.1665196567773819,
+                    "z": -0.6760514378547668
+                },
+                "Scale": {
+                    "x": 8.48640251159668,
+                    "y": 8.481364250183105,
+                    "z": 13.262320518493652
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseshop.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseShop.jpg"
+            },
+            "Name": "Shop",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": 0.010573416948318481,
+                    "y": -11.447625160217285,
+                    "z": 3.3204915523529053
+                },
+                "Rotation": {
+                    "w": 0.48854413628578186,
+                    "x": -0.5111140608787537,
+                    "y": -0.5112000703811646,
+                    "z": -0.488632470369339
+                },
+                "Scale": {
+                    "x": 0.08995599299669266,
+                    "y": 0.06949661672115326,
+                    "z": 0.05426827818155289
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseCorner.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseCorner.jpg"
+            },
+            "Name": "House Corner",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -0.8604525923728943,
+                    "y": 0.7890505790710449,
+                    "z": 43.14148712158203
+                },
+                "Rotation": {
+                    "w": 0.487892746925354,
+                    "x": -0.5117127895355225,
+                    "y": -0.5118638277053833,
+                    "z": -0.48796138167381287
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseCorner.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseCorner.jpg"
+            },
+            "Name": "House Corner 2",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -5.109354019165039,
+                    "y": 7.2017364501953125,
+                    "z": 171.21420288085938
+                },
+                "Rotation": {
+                    "w": 0.706935465335846,
+                    "x": -0.016778916120529175,
+                    "y": -0.016939904540777206,
+                    "z": -0.7068760991096497
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseBig.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseBig.jpg"
+            },
+            "Name": "House Big",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": 1.3092089891433716,
+                    "y": -40.36467361450195,
+                    "z": 4.127204895019531
+                },
+                "Rotation": {
+                    "w": 0.7216823697090149,
+                    "x": -0.017108650878071785,
+                    "y": -0.016502412036061287,
+                    "z": -0.6918160915374756
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/RoadT.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/RoadT.jpg"
+            },
+            "Name": "Road",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -1.2275104522705078,
+                    "y": 19.023822784423828,
+                    "z": 22.03030014038086
+                },
+                "Rotation": {
+                    "w": 0.49126821756362915,
+                    "x": -0.4979065954685211,
+                    "y": -0.5254188776016235,
+                    "z": -0.4844374358654022
+                },
+                "Scale": {
+                    "x": 0.10000000149011612,
+                    "y": 0.10000000149011612,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/RoadT.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/RoadT.jpg"
+            },
+            "Name": "Road 2",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -2.5466580390930176,
+                    "y": 22.035133361816406,
+                    "z": 94.28218078613281
+                },
+                "Rotation": {
+                    "w": 0.5219573378562927,
+                    "x": 0.4845829904079437,
+                    "y": 0.49645939469337463,
+                    "z": -0.4962538182735443
+                },
+                "Scale": {
+                    "x": 0.10000000149011612,
+                    "y": 0.10000000149011612,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/RoadT.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/RoadT.jpg"
+            },
+            "Name": "Road 3",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -3.6053037643432617,
+                    "y": 24.72946548461914,
+                    "z": 167.20155334472656
+                },
+                "Rotation": {
+                    "w": 0.5219573378562927,
+                    "x": 0.4845829904079437,
+                    "y": 0.49645939469337463,
+                    "z": -0.4962538182735443
+                },
+                "Scale": {
+                    "x": 0.10000000149011612,
+                    "y": 0.10000000149011612,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseSmall.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseSmall.jpg"
+            },
+            "Name": "House Small",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": 0.17610761523246765,
+                    "y": -19.52391242980957,
+                    "z": 41.067935943603516
+                },
+                "Rotation": {
+                    "w": 0.01514759287238121,
+                    "x": 0.6942282915115356,
+                    "y": 0.7194286584854126,
+                    "z": -0.015493806451559067
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseBig.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseBig.jpg"
+            },
+            "Name": "House Big 2",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -1.4195224046707153,
+                    "y": 0.4369392395019531,
+                    "z": 66.47827911376953
+                },
+                "Rotation": {
+                    "w": 0.4887699782848358,
+                    "x": -0.5108981728553772,
+                    "y": -0.5109882354736328,
+                    "z": -0.48885396122932434
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/warehouse.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/warehouse.jpg"
+            },
+            "Name": "Warehouse",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -4.958877086639404,
+                    "y": -8.32809066772461,
+                    "z": 102.875732421875
+                },
+                "Rotation": {
+                    "w": 0.7070319652557373,
+                    "x": -0.0071540772914886475,
+                    "y": -0.01863860711455345,
+                    "z": -0.7068997621536255
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/hotel.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/hotel.jpg"
+            },
+            "Name": "Hotel",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -3.3278589248657227,
+                    "y": 41.82521438598633,
+                    "z": 111.88103485107422
+                },
+                "Rotation": {
+                    "w": -0.01939069665968418,
+                    "x": -0.7068855166435242,
+                    "y": -0.7067953944206238,
+                    "z": 0.019420916214585304
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/hotel.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/hotel.jpg"
+            },
+            "Name": "Hotel 2",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -7.458276748657227,
+                    "y": 99.56686401367188,
+                    "z": 139.61456298828125
+                },
+                "Rotation": {
+                    "w": 0.7067778706550598,
+                    "x": -0.01997944712638855,
+                    "y": -0.019964978098869324,
+                    "z": -0.7068714499473572
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/hotel.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/hotel.jpg"
+            },
+            "Name": "Hotel 3",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -3.3398423194885254,
+                    "y": -3.761139392852783,
+                    "z": -16.638240814208984
+                },
+                "Rotation": {
+                    "w": -0.01939069665968418,
+                    "x": -0.7068855166435242,
+                    "y": -0.7067953944206238,
+                    "z": 0.019420916214585304
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/gasStation.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/gasStation.png"
+            },
+            "Name": "Gas Station",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -4.440574645996094,
+                    "y": 74.49449157714844,
+                    "z": 126.76973724365234
+                },
+                "Rotation": {
+                    "w": -0.025096699595451355,
+                    "x": -0.6963955760002136,
+                    "y": -0.7167525887489319,
+                    "z": 0.025869134813547134
+                },
+                "Scale": {
+                    "x": 0.22093787789344788,
+                    "y": 0.19857576489448547,
+                    "z": 0.14303411543369293
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/fanceWooden.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/fanceWooden.jpg"
+            },
+            "Name": "Wall",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -2.1706864833831787,
+                    "y": 31.123605728149414,
+                    "z": 77.78009033203125
+                },
+                "Rotation": {
+                    "w": -0.5180982947349548,
+                    "x": -0.49108970165252686,
+                    "y": -0.4820208251476288,
+                    "z": 0.5079970359802246
+                },
+                "Scale": {
+                    "x": 0.04550803452730179,
+                    "y": 0.010968886315822601,
+                    "z": 0.027020001783967018
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/fanceWooden.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/fanceWooden.jpg"
+            },
+            "Name": "Wall 2",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -1.6151124238967896,
+                    "y": 30.52659034729004,
+                    "z": 52.52168655395508
+                },
+                "Rotation": {
+                    "w": -0.5194459557533264,
+                    "x": -0.4923681616783142,
+                    "y": -0.48071494698524475,
+                    "z": 0.5066189765930176
+                },
+                "Scale": {
+                    "x": 0.04550803452730179,
+                    "y": 0.010598316788673401,
+                    "z": 0.027020001783967018
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/fanceWooden.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/fanceWooden.jpg"
+            },
+            "Name": "Wall 3",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -2.192406177520752,
+                    "y": 30.82012367248535,
+                    "z": 64.73704528808594
+                },
+                "Rotation": {
+                    "w": -0.7066688537597656,
+                    "x": -0.07900840044021606,
+                    "y": -0.6932597756385803,
+                    "z": 0.1173362284898758
+                },
+                "Scale": {
+                    "x": 0.04550803080201149,
+                    "y": 0.012376854196190834,
+                    "z": 0.027020005509257317
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/hummer.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/hummer.jpg"
+            },
+            "Name": "Hummer",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -1.7085936069488525,
+                    "y": 29.90418815612793,
+                    "z": 64.16255187988281
+                },
+                "Rotation": {
+                    "w": 0.2346198558807373,
+                    "x": -0.7213478684425354,
+                    "y": -0.6219499707221985,
+                    "z": -0.19439440965652466
+                },
+                "Scale": {
+                    "x": 0.05407834053039551,
+                    "y": 0.061849769204854965,
+                    "z": 0.045636843889951706
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/hummerHX.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/hummerHX.jpg"
+            },
+            "Name": "Hummer 2",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": 2.2344799041748047,
+                    "y": -27.6619815826416,
+                    "z": 26.358978271484375
+                },
+                "Rotation": {
+                    "w": -0.2599928379058838,
+                    "x": -0.6843233704566956,
+                    "y": -0.4960716962814331,
+                    "z": -0.466924250125885
+                },
+                "Scale": {
+                    "x": 0.05407834053039551,
+                    "y": 0.061849769204854965,
+                    "z": 0.045636843889951706
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseSmall.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseSmall.jpg"
+            },
+            "Name": "House Small 2",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -3.677046298980713,
+                    "y": 52.4794807434082,
+                    "z": 76.21534729003906
+                },
+                "Rotation": {
+                    "w": 0.707094132900238,
+                    "x": -0.007841050624847412,
+                    "y": -0.0080253379419446,
+                    "z": -0.7070304155349731
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/fanceWooden.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/fanceWooden.jpg"
+            },
+            "Name": "Wall 4",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -1.5449481010437012,
+                    "y": 29.918834686279297,
+                    "z": 39.26746368408203
+                },
+                "Rotation": {
+                    "w": -0.5036579370498657,
+                    "x": -0.4962426424026489,
+                    "y": -0.4766993224620819,
+                    "z": 0.5223309993743896
+                },
+                "Scale": {
+                    "x": 0.04550802335143089,
+                    "y": 0.011667963117361069,
+                    "z": 0.027020001783967018
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/fanceWooden.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/fanceWooden.jpg"
+            },
+            "Name": "Wall 5",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -1.663765788078308,
+                    "y": 29.238529205322266,
+                    "z": 26.217464447021484
+                },
+                "Rotation": {
+                    "w": -0.5010221600532532,
+                    "x": -0.4989241063594818,
+                    "y": -0.4739023447036743,
+                    "z": 0.5248505473136902
+                },
+                "Scale": {
+                    "x": 0.04550802707672119,
+                    "y": 0.012830382212996483,
+                    "z": 0.02701999992132187
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/fanceWooden.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/fanceWooden.jpg"
+            },
+            "Name": "Wall 6",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -1.2937613725662231,
+                    "y": 28.646257400512695,
+                    "z": 13.002538681030273
+                },
+                "Rotation": {
+                    "w": -0.5031744837760925,
+                    "x": -0.49676817655563354,
+                    "y": -0.4761512279510498,
+                    "z": 0.522797167301178
+                },
+                "Scale": {
+                    "x": 0.04550802707672119,
+                    "y": 0.011679108254611492,
+                    "z": 0.027020003646612167
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/fanceWooden.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/fanceWooden.jpg"
+            },
+            "Name": "Wall 7",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -0.8497543931007385,
+                    "y": 28.01190185546875,
+                    "z": -0.3784008026123047
+                },
+                "Rotation": {
+                    "w": -0.5031744837760925,
+                    "x": -0.49676817655563354,
+                    "y": -0.4761512279510498,
+                    "z": 0.522797167301178
+                },
+                "Scale": {
+                    "x": 0.04550802707672119,
+                    "y": 0.01066941674798727,
+                    "z": 0.027020003646612167
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/fanceWooden.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/fanceWooden.jpg"
+            },
+            "Name": "Wall 8",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -0.8452483415603638,
+                    "y": 27.437162399291992,
+                    "z": -13.683026313781738
+                },
+                "Rotation": {
+                    "w": -0.5031744837760925,
+                    "x": -0.49676817655563354,
+                    "y": -0.4761512279510498,
+                    "z": 0.522797167301178
+                },
+                "Scale": {
+                    "x": 0.04550802707672119,
+                    "y": 0.012738673947751522,
+                    "z": 0.027020003646612167
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/fanceWooden.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/fanceWooden.jpg"
+            },
+            "Name": "Wall 9",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -2.537597894668579,
+                    "y": 37.93070983886719,
+                    "z": 84.08744049072266
+                },
+                "Rotation": {
+                    "w": 0.7093350887298584,
+                    "x": -0.01664981245994568,
+                    "y": -0.01788080856204033,
+                    "z": -0.704447865486145
+                },
+                "Scale": {
+                    "x": 0.04550803080201149,
+                    "y": 0.011619935743510723,
+                    "z": 0.027020001783967018
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/brick.png"
+            },
+            "Name": "Ground",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": 0.2544407844543457,
+                    "y": -25.963163375854492,
+                    "z": 10.639442443847656
+                },
+                "Rotation": {
+                    "w": 0.7104173302650452,
+                    "x": -0.01626703143119812,
+                    "y": -0.016164487227797508,
+                    "z": -0.7034069299697876
+                },
+                "Scale": {
+                    "x": 13.139087677001953,
+                    "y": 0.5,
+                    "z": 7.0561323165893555
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/brick.png"
+            },
+            "Name": "Ground 2",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -0.9335392713546753,
+                    "y": 3.4283409118652344,
+                    "z": 35.934200286865234
+                },
+                "Rotation": {
+                    "w": 0.7104173302650452,
+                    "x": -0.01626703143119812,
+                    "y": -0.016164487227797508,
+                    "z": -0.7034069299697876
+                },
+                "Scale": {
+                    "x": 13.139087677001953,
+                    "y": 0.5,
+                    "z": 7.0561323165893555
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/brick.png"
+            },
+            "Name": "Ground  3",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -0.45892956852912903,
+                    "y": 1.8694815635681152,
+                    "z": 9.226836204528809
+                },
+                "Rotation": {
+                    "w": 0.7202948331832886,
+                    "x": -0.01649382710456848,
+                    "y": -0.015933411195874214,
+                    "z": -0.6932888627052307
+                },
+                "Scale": {
+                    "x": 13.139087677001953,
+                    "y": 0.5,
+                    "z": 7.0561323165893555
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/brick.png"
+            },
+            "Name": "Ground  4",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -0.4271996021270752,
+                    "y": 1.527916431427002,
+                    "z": 2.282641887664795
+                },
+                "Rotation": {
+                    "w": 0.7205869555473328,
+                    "x": -0.016501009464263916,
+                    "y": -0.015927378088235855,
+                    "z": -0.6929852366447449
+                },
+                "Scale": {
+                    "x": 13.139087677001953,
+                    "y": 0.5,
+                    "z": 7.0561323165893555
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/brick.png"
+            },
+            "Name": "Ground  5",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -0.5324562191963196,
+                    "y": 1.211057424545288,
+                    "z": -4.719375133514404
+                },
+                "Rotation": {
+                    "w": 0.7202950119972229,
+                    "x": -0.016495347023010254,
+                    "y": -0.01593298651278019,
+                    "z": -0.6932886838912964
+                },
+                "Scale": {
+                    "x": 13.139087677001953,
+                    "y": 0.5,
+                    "z": 7.0561323165893555
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/brick.png"
+            },
+            "Name": "Ground  6",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -1.554725170135498,
+                    "y": 7.979137420654297,
+                    "z": 65.9640121459961
+                },
+                "Rotation": {
+                    "w": 0.4879976212978363,
+                    "x": -0.5116268396377563,
+                    "y": -0.5165397524833679,
+                    "z": -0.4829937815666199
+                },
+                "Scale": {
+                    "x": 13.139087677001953,
+                    "y": 0.5,
+                    "z": 7.0561323165893555
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/brick.png"
+            },
+            "Name": "Ground  7",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -1.0555005073547363,
+                    "y": 3.398932456970215,
+                    "z": 43.057891845703125
+                },
+                "Rotation": {
+                    "w": 0.7104173302650452,
+                    "x": -0.01626703143119812,
+                    "y": -0.016164487227797508,
+                    "z": -0.7034069299697876
+                },
+                "Scale": {
+                    "x": 13.139087677001953,
+                    "y": 0.5,
+                    "z": 7.0561323165893555
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/brick.png"
+            },
+            "Name": "Ground  8",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -0.8120169639587402,
+                    "y": -9.535415649414063,
+                    "z": 37.21662139892578
+                },
+                "Rotation": {
+                    "w": 0.7104173302650452,
+                    "x": -0.01626703143119812,
+                    "y": -0.016164487227797508,
+                    "z": -0.7034069299697876
+                },
+                "Scale": {
+                    "x": 13.139087677001953,
+                    "y": 0.5,
+                    "z": 7.0561323165893555
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/brick.png"
+            },
+            "Name": "Ground  9",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -1.0627866983413696,
+                    "y": 3.812856912612915,
+                    "z": 49.96537399291992
+                },
+                "Rotation": {
+                    "w": 0.7104173302650452,
+                    "x": -0.01626703143119812,
+                    "y": -0.016164487227797508,
+                    "z": -0.7034069299697876
+                },
+                "Scale": {
+                    "x": 13.139087677001953,
+                    "y": 0.5,
+                    "z": 7.0561323165893555
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/brick.png"
+            },
+            "Name": "Ground  10",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -1.0444730520248413,
+                    "y": -9.555746078491211,
+                    "z": 43.96116638183594
+                },
+                "Rotation": {
+                    "w": 0.7104173302650452,
+                    "x": -0.01626703143119812,
+                    "y": -0.016164487227797508,
+                    "z": -0.7034069299697876
+                },
+                "Scale": {
+                    "x": 13.139087677001953,
+                    "y": 0.5,
+                    "z": 7.0561323165893555
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/brick.png"
+            },
+            "Name": "Ground  11",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -0.7550650835037231,
+                    "y": -40.000091552734375,
+                    "z": 11.536420822143555
+                },
+                "Rotation": {
+                    "w": 0.7104173302650452,
+                    "x": -0.01626703143119812,
+                    "y": -0.016164487227797508,
+                    "z": -0.7034069299697876
+                },
+                "Scale": {
+                    "x": 13.139087677001953,
+                    "y": 0.5,
+                    "z": 7.0561323165893555
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/hummer.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/hummer.jpg"
+            },
+            "Name": "Hummer 3",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": 0.4865431487560272,
+                    "y": -23.5042724609375,
+                    "z": 20.67538833618164
+                },
+                "Rotation": {
+                    "w": 0.694549560546875,
+                    "x": -0.20012737810611725,
+                    "y": -0.23333090543746948,
+                    "z": -0.6504665613174438
+                },
+                "Scale": {
+                    "x": 0.07676098495721817,
+                    "y": 0.07764719426631927,
+                    "z": 0.0725250244140625
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/hummer.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/hummer.jpg"
+            },
+            "Name": "Hummer 4",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -4.570706367492676,
+                    "y": 84.64961242675781,
+                    "z": 92.3436279296875
+                },
+                "Rotation": {
+                    "w": 0.05934232473373413,
+                    "x": -0.6867209672927856,
+                    "y": -0.7211000919342041,
+                    "z": -0.07005377858877182
+                },
+                "Scale": {
+                    "x": 0.05407834053039551,
+                    "y": 0.061849769204854965,
+                    "z": 0.045636843889951706
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/hummerHX.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/hummerHX.jpg"
+            },
+            "Name": "Hummer 5",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -2.364802837371826,
+                    "y": 33.87456130981445,
+                    "z": 20.17437744140625
+                },
+                "Rotation": {
+                    "w": 0.38138362765312195,
+                    "x": -0.6113988757133484,
+                    "y": -0.5603346824645996,
+                    "z": -0.40836629271507263
+                },
+                "Scale": {
+                    "x": 0.05407834053039551,
+                    "y": 0.061849769204854965,
+                    "z": 0.045636843889951706
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseBig.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseBig.jpg"
+            },
+            "Name": "House Big 3",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": 0.6848455667495728,
+                    "y": -39.607872009277344,
+                    "z": 45.34994125366211
+                },
+                "Rotation": {
+                    "w": 0.015521377325057983,
+                    "x": 0.6950877904891968,
+                    "y": 0.7185664772987366,
+                    "z": -0.016561510041356087
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/stone.jpg"
+            },
+            "Name": "Ground  12",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -2.55678391456604,
+                    "y": 42.9281005859375,
+                    "z": 51.82935333251953
+                },
+                "Rotation": {
+                    "w": 0.4891769289970398,
+                    "x": -0.508758544921875,
+                    "y": -0.5154865384101868,
+                    "z": -0.4859468936920166
+                },
+                "Scale": {
+                    "x": 63.3941650390625,
+                    "y": 0.5000001192092896,
+                    "z": 27.780323028564453
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/stone.jpg"
+            },
+            "Name": "Ground  13",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -1.9764108657836914,
+                    "y": 40.092166900634766,
+                    "z": -7.775690078735352
+                },
+                "Rotation": {
+                    "w": 0.4874840974807739,
+                    "x": -0.5059139132499695,
+                    "y": -0.5172094106674194,
+                    "z": -0.48877882957458496
+                },
+                "Scale": {
+                    "x": 62.33509826660156,
+                    "y": 0.5,
+                    "z": 27.780317306518555
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": true,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Queryable": false,
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "ColliderPlayerAttack": {
+                "IsPresent": true
+            },
+            "Name": "Collider Player",
+            "Parent": "Player",
+            "Transform": {
+                "Position": {
+                    "x": 0.061216503381729126,
+                    "y": 3.0420427322387695,
+                    "z": 2.2443132400512695
+                },
+                "Rotation": {
+                    "w": 1.0,
+                    "x": 3.1316523675397886e-29,
+                    "y": -7.221099412868526e-11,
+                    "z": 4.3368084314480763e-19
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/brick.png"
+            },
+            "Name": "Ground  14",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -3.91880464553833,
+                    "y": 64.96305847167969,
+                    "z": 72.39561462402344
+                },
+                "Rotation": {
+                    "w": 0.7202948331832886,
+                    "x": -0.01649382710456848,
+                    "y": -0.015933411195874214,
+                    "z": -0.6932888627052307
+                },
+                "Scale": {
+                    "x": 13.139087677001953,
+                    "y": 0.5,
+                    "z": 7.0561323165893555
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/brick.png"
+            },
+            "Name": "Ground  15",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -3.9147887229919434,
+                    "y": 65.25965118408203,
+                    "z": 79.09507751464844
+                },
+                "Rotation": {
+                    "w": 0.7202948331832886,
+                    "x": -0.01649382710456848,
+                    "y": -0.015933411195874214,
+                    "z": -0.6932888627052307
+                },
+                "Scale": {
+                    "x": 13.139087677001953,
+                    "y": 0.5,
+                    "z": 7.0561323165893555
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/stone.jpg"
+            },
+            "Name": "Ground  16",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -5.146892070770264,
+                    "y": 63.98292922973633,
+                    "z": 116.74725341796875
+                },
+                "Rotation": {
+                    "w": -0.018864059820771217,
+                    "x": -0.6873876452445984,
+                    "y": -0.725968599319458,
+                    "z": 0.01058516837656498
+                },
+                "Scale": {
+                    "x": 61.71175765991211,
+                    "y": 0.49500012397766113,
+                    "z": 36.22807693481445
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/stone.jpg"
+            },
+            "Name": "Ground  17",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -7.13726806640625,
+                    "y": 107.08563232421875,
+                    "z": 127.97339630126953
+                },
+                "Rotation": {
+                    "w": -0.5112012624740601,
+                    "x": -0.4949333667755127,
+                    "y": -0.493766188621521,
+                    "z": 0.4999091923236847
+                },
+                "Scale": {
+                    "x": 54.85488510131836,
+                    "y": 0.4399999678134918,
+                    "z": 24.446680068969727
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/trafficLight.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/trafficLights.jpg"
+            },
+            "Name": "TrafficLights",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -0.9471283555030823,
+                    "y": 6.748003005981445,
+                    "z": 32.94429016113281
+                },
+                "Rotation": {
+                    "w": -0.008896511048078537,
+                    "x": -0.7037199139595032,
+                    "y": -0.7104218602180481,
+                    "z": 0.00013738057168666273
+                },
+                "Scale": {
+                    "x": 0.05000000074505806,
+                    "y": 0.05000000074505806,
+                    "z": 0.05000000074505806
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseGreenRoof.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseGreenRoof.jpg"
+            },
+            "Name": "Green House",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -4.996772289276123,
+                    "y": 78.8863296508789,
+                    "z": 74.76268768310547
+                },
+                "Rotation": {
+                    "w": 0.7105715274810791,
+                    "x": -0.006300926208496094,
+                    "y": -0.01512949913740158,
+                    "z": -0.70343416929245
+                },
+                "Scale": {
+                    "x": 0.05000000074505806,
+                    "y": 0.05000000074505806,
+                    "z": 0.05000000074505806
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseGreenRoof.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseGreenRoof.jpg"
+            },
+            "Name": "Green House 2",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -4.6742472648620605,
+                    "y": -23.713769912719727,
+                    "z": 134.29876708984375
+                },
+                "Rotation": {
+                    "w": 0.7105715274810791,
+                    "x": -0.006300926208496094,
+                    "y": -0.01512949913740158,
+                    "z": -0.70343416929245
+                },
+                "Scale": {
+                    "x": 0.05000000074505806,
+                    "y": 0.05000000074505806,
+                    "z": 0.05000000074505806
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseGreenRoof.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseGreenRoof.jpg"
+            },
+            "Name": "Green House 3",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -5.242227554321289,
+                    "y": 6.436561584472656,
+                    "z": 155.27940368652344
+                },
+                "Rotation": {
+                    "w": 0.48602166771888733,
+                    "x": -0.5073056221008301,
+                    "y": -0.5185830593109131,
+                    "z": -0.4873352348804474
+                },
+                "Scale": {
+                    "x": 0.05000000074505806,
+                    "y": 0.05000000074505806,
+                    "z": 0.05000000074505806
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/trashContainerOpen.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/trashContainerOpen.jpg"
+            },
+            "Name": "Trash Container",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -3.0106611251831055,
+                    "y": 57.069053649902344,
+                    "z": 111.97547912597656
+                },
+                "Rotation": {
+                    "w": 0.350384920835495,
+                    "x": -0.6077171564102173,
+                    "y": -0.6183257699012756,
+                    "z": -0.3543776869773865
+                },
+                "Scale": {
+                    "x": 0.019500000402331352,
+                    "y": 0.01950000412762165,
+                    "z": 0.019500000402331352
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseSmall.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseSmall.jpg"
+            },
+            "Name": "House Small 3",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": 0.17610761523246765,
+                    "y": -19.52391242980957,
+                    "z": 41.067935943603516
+                },
+                "Rotation": {
+                    "w": 0.01514759287238121,
+                    "x": 0.6942282915115356,
+                    "y": 0.7194286584854126,
+                    "z": -0.015493806451559067
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/containerWheel.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/containerWheel.jpg"
+            },
+            "Name": "Container",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -3.4940953254699707,
+                    "y": 79.41362762451172,
+                    "z": 100.94477081298828
+                },
+                "Rotation": {
+                    "w": 0.36708635091781616,
+                    "x": -0.597714364528656,
+                    "y": -0.6188905835151672,
+                    "z": -0.3534963130950928
+                },
+                "Scale": {
+                    "x": 0.055438995361328125,
+                    "y": 0.05597123131155968,
+                    "z": 0.0559711791574955
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseSmall.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseSmall.jpg"
+            },
+            "Name": "House Small 4",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -3.518083095550537,
+                    "y": 54.12493896484375,
+                    "z": 154.8548583984375
+                },
+                "Rotation": {
+                    "w": 0.7195074558258057,
+                    "x": -0.011227996088564396,
+                    "y": -0.010737067088484764,
+                    "z": -0.6943110227584839
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseSmall.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseSmall.jpg"
+            },
+            "Name": "House Small 5",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -3.0177195072174072,
+                    "y": 40.091552734375,
+                    "z": 155.50392150878906
+                },
+                "Rotation": {
+                    "w": 0.7195074558258057,
+                    "x": -0.011227996088564396,
+                    "y": -0.010737067088484764,
+                    "z": -0.6943110227584839
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseSmall.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseSmall.jpg"
+            },
+            "Name": "House Small 6",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -5.024502754211426,
+                    "y": 93.48373413085938,
+                    "z": 74.27430725097656
+                },
+                "Rotation": {
+                    "w": 0.7195074558258057,
+                    "x": -0.011227996088564396,
+                    "y": -0.010737067088484764,
+                    "z": -0.6943110227584839
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/warehouse.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/warehouse.jpg"
+            },
+            "Name": "Warehouse 2",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -2.578613519668579,
+                    "y": 47.14615249633789,
+                    "z": 134.80096435546875
+                },
+                "Rotation": {
+                    "w": 0.7192546725273132,
+                    "x": -0.02159389853477478,
+                    "y": -0.02143760211765766,
+                    "z": -0.6940798759460449
+                },
+                "Scale": {
+                    "x": 0.034800007939338684,
+                    "y": 0.034800007939338684,
+                    "z": 0.034800007939338684
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/warehouse.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/warehouse.jpg"
+            },
+            "Name": "Warehouse 3",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -4.827462196350098,
+                    "y": -63.41279983520508,
+                    "z": 96.60175323486328
+                },
+                "Rotation": {
+                    "w": 0.48282307386398315,
+                    "x": -0.5086886286735535,
+                    "y": -0.5168426632881165,
+                    "z": -0.49090874195098877
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/containerWheel.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/containerWheel.jpg"
+            },
+            "Name": "Container 2",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -1.7235883474349976,
+                    "y": 21.77469253540039,
+                    "z": 119.39460754394531
+                },
+                "Rotation": {
+                    "w": 0.6953473687171936,
+                    "x": 0.17780596017837524,
+                    "y": 0.18501260876655579,
+                    "z": -0.671302855014801
+                },
+                "Scale": {
+                    "x": 0.07179351150989532,
+                    "y": 0.07248276472091675,
+                    "z": 0.07248269766569138
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/sky.png"
+            },
+            "Name": "Sky",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": 29.951711654663086,
+                    "y": -30.45093536376953,
+                    "z": -175.35658264160156
+                },
+                "Rotation": {
+                    "w": 0.5083639621734619,
+                    "x": 0.5130130052566528,
+                    "y": -0.4904802739620209,
+                    "z": -0.48766064643859863
+                },
+                "Scale": {
+                    "x": 446.25482177734375,
+                    "y": 15.780821800231934,
+                    "z": 222.703125
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/sky.png"
+            },
+            "Name": "Sky 2",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": 20.20621681213379,
+                    "y": -27.301528930664063,
+                    "z": 268.52105712890625
+                },
+                "Rotation": {
+                    "w": 0.48321035504341125,
+                    "x": -0.506003737449646,
+                    "y": -0.5019988417625427,
+                    "z": 0.5083948373794556
+                },
+                "Scale": {
+                    "x": 446.25482177734375,
+                    "y": 15.780821800231934,
+                    "z": 222.703125
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/sky.png"
+            },
+            "Name": "Sky 3",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": 31.276546478271484,
+                    "y": -259.2376708984375,
+                    "z": 40.92784881591797
+                },
+                "Rotation": {
+                    "w": 0.7008043527603149,
+                    "x": 0.0013965144753456116,
+                    "y": -0.7128803133964539,
+                    "z": 0.02594432234764099
+                },
+                "Scale": {
+                    "x": 446.25482177734375,
+                    "y": 15.780821800231934,
+                    "z": 222.703125
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/sky.png"
+            },
+            "Name": "Sky 4",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": 19.67757225036621,
+                    "y": 198.39523315429688,
+                    "z": 51.98700714111328
+                },
+                "Rotation": {
+                    "w": 0.0024490952491760254,
+                    "x": 0.7071018218994141,
+                    "y": -0.0024493038654327393,
+                    "z": -0.7071032524108887
+                },
+                "Scale": {
+                    "x": 446.25482177734375,
+                    "y": 15.780821800231934,
+                    "z": 222.703125
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/sky.png"
+            },
+            "Name": "Sky 5",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -94.54954528808594,
+                    "y": 2.165006637573242,
+                    "z": 44.68854904174805
+                },
+                "Rotation": {
+                    "w": 0.5306233763694763,
+                    "x": 0.47741931676864624,
+                    "y": 0.48891836404800415,
+                    "z": -0.5014663338661194
+                },
+                "Scale": {
+                    "x": 494.07208251953125,
+                    "y": 36.769325256347656,
+                    "z": 518.8982543945313
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/cube.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/sky.png"
+            },
+            "Name": "Sky 6",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": 145.0928955078125,
+                    "y": 6.500497817993164,
+                    "z": 48.965675354003906
+                },
+                "Rotation": {
+                    "w": 0.5306233763694763,
+                    "x": 0.47741931676864624,
+                    "y": 0.48891836404800415,
+                    "z": -0.5014663338661194
+                },
+                "Scale": {
+                    "x": 494.07208251953125,
+                    "y": 36.769325256347656,
+                    "z": 518.8982543945313
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/containerWheel.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/containerWheel.jpg"
+            },
+            "Name": "Container 3",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -0.544745922088623,
+                    "y": 19.572011947631836,
+                    "z": -10.452533721923828
+                },
+                "Rotation": {
+                    "w": 0.4854864776134491,
+                    "x": -0.5131285190582275,
+                    "y": -0.5311115980148315,
+                    "z": -0.4678915739059448
+                },
+                "Scale": {
+                    "x": 0.0577489510178566,
+                    "y": 0.0583033561706543,
+                    "z": 0.05830330774188042
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseBig.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseBig.jpg"
+            },
+            "Name": "House Big 4",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -2.9495105743408203,
+                    "y": 76.7347412109375,
+                    "z": 141.75552368164063
+                },
+                "Rotation": {
+                    "w": 0.02271605283021927,
+                    "x": 0.6948864459991455,
+                    "y": 0.7183755040168762,
+                    "z": -0.023526471108198166
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseBig.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseBig.jpg"
+            },
+            "Name": "House Big 5",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -4.003211975097656,
+                    "y": -1.9546699523925781,
+                    "z": 136.61105346679688
+                },
+                "Rotation": {
+                    "w": 0.7185998558998108,
+                    "x": -0.01476183719933033,
+                    "y": -0.013680740259587765,
+                    "z": -0.6951325535774231
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseBig.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseBig.jpg"
+            },
+            "Name": "House Big 6",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": 0.6848455667495728,
+                    "y": -39.607872009277344,
+                    "z": 45.34994125366211
+                },
+                "Rotation": {
+                    "w": 0.015521377325057983,
+                    "x": 0.6950877904891968,
+                    "y": 0.7185664772987366,
+                    "z": -0.016561510041356087
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseBig.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseBig.jpg"
+            },
+            "Name": "House Big 7",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": 0.7698528170585632,
+                    "y": -24.577878952026367,
+                    "z": 71.73355865478516
+                },
+                "Rotation": {
+                    "w": 0.7216823697090149,
+                    "x": -0.017108650878071785,
+                    "y": -0.016502412036061287,
+                    "z": -0.6918160915374756
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/houseBig.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/houseBig.jpg"
+            },
+            "Name": "House Big 8",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": 1.9214571714401245,
+                    "y": -48.92013168334961,
+                    "z": 136.895263671875
+                },
+                "Rotation": {
+                    "w": 0.7216823697090149,
+                    "x": -0.017108650878071785,
+                    "y": -0.016502412036061287,
+                    "z": -0.6918160915374756
+                },
+                "Scale": {
+                    "x": 0.05999999865889549,
+                    "y": 0.05999999865889549,
+                    "z": 0.05999999865889549
+                }
+            }
+        },
+        {
+            "BoxCollider": {
+                "IsStatic": true,
+                "IsTrigger": true,
+                "LockPosX": false,
+                "LockPosY": false,
+                "LockPosZ": false,
+                "LockRotX": true,
+                "LockRotY": false,
+                "LockRotZ": true,
+                "Offset": {
+                    "x": -10.0,
+                    "y": 0.0010000000474974513,
+                    "z": 10.0
+                },
+                "Queryable": true,
+                "Scale": {
+                    "x": 15.0,
+                    "y": 8.020000457763672,
+                    "z": 20.0
+                }
+            },
+            "Model": {
+                "Mesh": "Resources/Mesh/Cave.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/CheckerboardPattern.png"
+            },
+            "Name": "Flag",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": 8.971880912780762,
+                    "y": -21.324665069580078,
+                    "z": 108.28927612304688
+                },
+                "Rotation": {
+                    "w": 0.481789231300354,
+                    "x": -0.5181854963302612,
+                    "y": -0.5029120445251465,
+                    "z": -0.4964296519756317
+                },
+                "Scale": {
+                    "x": 8.232699394226074,
+                    "y": 8.232698440551758,
+                    "z": 8.23270034790039
+                }
+            }
+        },
+        {
+            "Model": {
+                "Mesh": "Resources/Mesh/phone.obj",
+                "ShaderFrag": "Resources/Shaders/ShadowedBlinnPhong.frag",
+                "ShaderVert": "Resources/Shaders/BlinnPhong.vert",
+                "Texture": "Resources/Textures/phone.jpg"
+            },
+            "Name": "Phone",
+            "Parent": "Level",
+            "Transform": {
+                "Position": {
+                    "x": -2.0135695934295654,
+                    "y": 33.334075927734375,
+                    "z": 82.99021911621094
+                },
+                "Rotation": {
+                    "w": 0.4690648913383484,
+                    "x": -0.5304356813430786,
+                    "y": -0.5148013234138489,
+                    "z": -0.48331737518310547
+                },
+                "Scale": {
+                    "x": 0.232063427567482,
+                    "y": 0.2320634424686432,
+                    "z": 0.23206353187561035
+                }
+            }
+        }
+    ]
+}
